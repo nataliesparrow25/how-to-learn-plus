@@ -1,0 +1,8 @@
+.footer__column_content_info {
+ flex-direction: column;
+ display: inline-block;
+  /* display:flex; */
+  flex-direction: column;
+  /* justify-content: space-between; */
+  /* flex-basis: 711px; */
+}

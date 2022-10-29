@@ -1,0 +1,73 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/normalize.css);
+/* не убирает margin и padding у некоторых текстовых элементов. Сбрасывайте эти отступы
+на уровне блока. В вашем макете не должно быть расстояний, унаследованных от
+браузера */
+@import url(../blocks/root/root.css);
+@import url(../page/page.css);
+/* header */
+@import url(../blocks/header/header.css);
+
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/logo/_place/logo_place_header.css);
+
+@import url(../blocks/header/header__title/header__title.css);
+@import url(../blocks/header/header__subtitle/header__subtitle.css);
+@import url(../blocks/header/header__link/header__link.css);
+@import url(../blocks/header/header__main-illustration/header__main-illustration.css);
+@import url(../blocks/header/header__square-pic/header__square-pic.css);
+
+/*content */
+  @import url(../blocks/content/content.css);
+  /* description */
+  @import url(../blocks/content/description/description.css);
+  @import url(../blocks/content/description/two-columns/two-columns.css);
+  @import url(../blocks/content/description/two-columns/two-columns__brief/two-columns__brief.css);
+  @import url(../blocks/content/description/two-columns/two-columns__main-text/two-columns__main-text.css);
+  @import url(../blocks/content/description/two-columns/two-columns__paragraph/two-columns__paragraph.css);
+  @import url(../blocks/content/description/two-columns/two-columns__span-accent/two-columns__span-accent.css);
+  /* techniques */
+  @import url(../blocks/content/techniques/techniques.css);
+  @import url(../blocks/content/section-title/section-title.css);
+  @import url(../blocks/content/section-subtitle/section-subtitle.css);
+  @import url(../blocks/content/cards/cards.css);
+  @import url(../blocks/content/cards/cards__item/cards__item.css);
+  @import url(../blocks/content/cards/cards__image/cards__image.css);
+  @import url(../blocks/content/cards/cards__title/cards__title.css);
+  @import url(../blocks/content/cards/cards__description/cards__description.css);
+  /* digits */
+  @import url(../blocks/content/digits/digits.css);
+  @import url(../blocks/content/table/table.css);
+  @import url(../blocks/content/table/table__cell/table__cell.css);
+  @import url(../blocks/content/table/table__cell/table__heading/table__heading.css);
+  @import url(../blocks/content/table/table__cell/table__text/table__text.css);
+  /* kaufman */
+  @import url(../blocks/content/kaufman/kaufman.css);
+  @import url(../blocks/content/table/table__cell/table__heading/table__heading_theme/table__heading_theme_dark.css);
+  @import url(../blocks/content/section-subtitle/_theme/section-subtitle_theme_dark.css);
+  @import url(../blocks/content/section-title/section-title_theme/section-title_theme_dark.css);
+  @import url(../blocks/content/table/table__cell/table_size/table__cell_size_small.css);
+  @import url(../blocks/content/table/table_theme/table_theme_dark.css);
+  @import url(../blocks/content/table/table__cell/table__heading/table__heading_theme/table__heading_theme_dark.css);
+  @import url(../blocks/content/table/table__cell/table__text/table__text_theme/table__text_theme_dark.css);
+
+  /* resources */
+  @import url(../blocks/content/resources/resources.css);
+  @import url(../blocks/content/resources/resources__logo/resources__logo.css);
+  @import url(../blocks/content/resources/resources__logo-zone/resources__logo-zone.css);
+  @import url(../blocks/content/resources/resources__link/resources__link.css);
+/* footer */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__columns/footer__columns.css);
+@import url(../blocks/footer/footer__column/_content/footer__column_content_copyright.css);
+@import url(../blocks/footer/footer__column/_content/footer__column_content_info.css);
+@import url(../blocks/footer/footer__column/_content/footer__column_content_social.css);
+
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/logo/_place/logo_place_footer.css);
+@import url(../blocks/footer/__author/footer__author.css);
+@import url(../blocks/footer/__ul/footer__ul.css);
+@import url(../blocks/footer/__column-heading/footer__column-heading.css);
+@import url(../blocks/footer/__column-links/footer__column-links.css);
+@import url(../blocks/footer/__social-icon/footer__social-icon.css);
+@import url(../blocks/footer/__column-link/footer__column-link.css);
