@@ -1,18 +1,18 @@
 @font-face {
-  src: url(./fonts/Inter/Inter-Bold.woff2) format("woff2"),
-    url(./fonts/Inter/Inter-Bold.woff) format("woff");
+  src: url(../styles/fonts/Inter/Inter-Bold.woff2) format("woff2"),
+    url(../styles\fonts\Inter\Inter-Bold.woff) format("woff");
   font-family: "Inter";
   font-weight: bold;
 }
 @font-face {
-  src: url(./fonts/Inter/Inter-Regular.woff2) format("woff2"),
-    url(./fonts/Inter/Inter-Regular.woff) format("woff");
+  src: url(../styles/fonts/Inter/Inter-Regular.woff2) format("woff2"),
+    url(../styles/fonts/Inter/Inter-Regular.woff) format("woff");
   font-family: "Inter";
   font-weight: 400;
 }
 @font-face {
-  src: url(./fonts/Inter/Inter-SemiBold.woff2) format("woff2"),
-    url(./fonts/Inter/Inter-SemiBold.woff) format("woff");
+  src: url(../styles/fonts/Inter/Inter-SemiBold.woff2) format("woff2"),
+    url(../styles/fonts/Inter/Inter-SemiBold.woff) format("woff");
   font-family: "Inter";
   font-weight: 600;
 }
@@ -26,4 +26,7 @@
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: "Inter", "Arial", sans-serif;
   padding: 0 auto;
+  display:flex;
+  flex-direction: column;
+  /* align-items:stretch; */
 }
