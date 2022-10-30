@@ -36,6 +36,8 @@
 @import url(../blocks/video/__iframe/video__iframe.css);
 /* oakley */
 @import url(../blocks/oakley/oakley.css);
+@import url(../blocks/two-columns/_theme/two-columns_theme_oakley.css);
+
 /* feynman */
 @import url(../blocks/feynman/feynman.css);
 @import url(../blocks/feynman/__title/feynman__title.css);

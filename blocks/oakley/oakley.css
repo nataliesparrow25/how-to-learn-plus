@@ -1,3 +1,5 @@
 .oakley {
-  margin: 160px 0px 0px;
+  /* margin: 160px 0px 100px; */
+  padding:160px 0px 100px;
+  background-color: #f2f2f2;
 }
