@@ -1,13 +1,16 @@
-.footer__column-link {
+.footer__column-links {
   color: white;
   text-decoration: none;
   line-height: 18px;
   font-size: 18px;
   font-weight: 400;
   list-style-type: none;
-  display: flex;
   margin-bottom: 10px;
 }
-.footer__column-link:hover {
-  color: #2f80ed;
+.footer__column-links:hover {
+  color: white;
+  text-decoration: none;
+  opacity: 0.5;
+  transition: 0.1s;
 }
+
