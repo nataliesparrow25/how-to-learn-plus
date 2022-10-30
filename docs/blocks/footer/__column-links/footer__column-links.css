@@ -1,5 +1,5 @@
 .footer__column-links {
-  color:white;
+  color: white;
   text-decoration: none;
   line-height: 18px;
   font-size: 18px;
@@ -7,7 +7,6 @@
   list-style-type: none;
   margin-bottom: 10px;
 }
-
 .footer__column-links:hover {
   color: #2f80ed;
 }
