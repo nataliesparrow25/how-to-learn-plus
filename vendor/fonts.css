@@ -5,7 +5,7 @@
   font-weight: 400;
 }
 @font-face {
-  src: url(vendor/fonts/fonts/Inter/Inter-SemiBold.woff2) format("woff2"),
+  src: url(../vendor/fonts/fonts/Inter/Inter-SemiBold.woff2) format("woff2"),
     url(../vendor/fonts/fonts/Inter/Inter-SemiBold.woff) format("woff");
   font-family: "Inter";
   font-weight: 600;

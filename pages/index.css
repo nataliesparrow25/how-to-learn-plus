@@ -2,7 +2,8 @@
 /* не убирает margin и padding у некоторых текстовых элементов. Сбрасывайте эти отступы
 на уровне блока. В вашем макете не должно быть расстояний, унаследованных от
 браузера */
-@import url(../vendor/fonts/fonts.css);
+@import url(../vendor/fonts.css);
+
 @import url(../blocks/page/page.css);
 
 @import url(../blocks/rotation/rotation.css);
@@ -93,4 +94,3 @@
 @import url(../blocks/footer/__column-links/footer__column-links.css);
 @import url(../blocks/footer/__social-icon/footer__social-icon.css);
 @import url(../blocks/footer/__column-link/footer__column-link.css);
-
