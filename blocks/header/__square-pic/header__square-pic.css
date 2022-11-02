@@ -6,4 +6,5 @@
   background-color: #2f80ed;
   right: 0;
   z-index: 1;
+  overflow: hidden;
 }
