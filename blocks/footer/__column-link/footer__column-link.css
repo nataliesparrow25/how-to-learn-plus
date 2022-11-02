@@ -8,6 +8,9 @@
   display: flex;
   margin-bottom: 10px;
   opacity: 1;
+  padding: 0px;
+  margin: 20px 0px 16px;
+  display:flex;
 }
 .footer__column-link:hover {
   color: white;

@@ -2,6 +2,7 @@
 /* не убирает margin и padding у некоторых текстовых элементов. Сбрасывайте эти отступы
 на уровне блока. В вашем макете не должно быть расстояний, унаследованных от
 браузера */
+@import url(../vendor/fonts/fonts.css);
 @import url(../blocks/page/page.css);
 
 @import url(../blocks/rotation/rotation.css);
@@ -39,7 +40,6 @@
 @import url(../blocks/video/__iframe/video__iframe.css);
 /* oakley */
 @import url(../blocks/oakley/oakley.css);
-@import url(../blocks/two-columns/_theme/two-columns_theme_oakley.css);
 /* feynman */
 @import url(../blocks/feynman/feynman.css);
 @import url(../blocks/feynman/__title/feynman__title.css);
@@ -50,7 +50,7 @@
 @import url(../blocks/digits/digits.css);
 @import url(../blocks/table/table.css);
 @import url(../blocks/table/__cell/table__cell.css);
-@import url(../blocks/table/__cell/__heading/table__heading.css);
+@import url(../blocks/table/__heading/table__heading.css);
 @import url(../blocks/table/__text/table__text.css);
 /* khan */
 @import url(../blocks/khan/khan.css);
@@ -63,15 +63,14 @@
 @import url(../blocks/khan/__quote-author/khan__quote-author.css);
 @import url(../blocks/khan/__quote-author-subline/khan__quote-author-subline.css);
 @import url(../blocks/khan/__title/khan__title.css);
-@import url(../blocks/khan/__book-pic-container/khan__book-pic-container.css);
 /* kaufman */
 @import url(../blocks/kaufman/kaufman.css);
-@import url(../blocks/table/__cell/__heading/__heading_theme/table__heading_theme_dark.css);
+@import url(../blocks/table/__heading/_theme/table__heading_theme_dark.css);
 @import url(../blocks/section-title/_theme/section-title_theme_dark.css);
 @import url(../blocks/section-subtitle/_theme/section-subtitle_theme_dark.css);
-@import url(../blocks/table/_size/table__cell_size_small.css);
 @import url(../blocks/table/_theme/table_theme_dark.css);
-@import url(../blocks/table/__text/__text_theme/table__text_theme_dark.css);
+@import url(../blocks/table/__cell/_theme/table__cell_theme_dark.css);
+@import url(../blocks/table/__text/_theme/table__text_theme_dark.css);
 @import url(../blocks/kaufman/__triangle/kaufman__triangle.css);
 /* resources */
 @import url(../blocks/resources/resources.css);

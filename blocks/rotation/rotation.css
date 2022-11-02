@@ -1,8 +1,5 @@
 .rotation {
-  transition: all 20s ease;
   animation: rotate 20s linear infinite;
-  /* transform: rotate(360deg); */
-  display: inline-block;
 }
 @keyframes rotate {
   from {
