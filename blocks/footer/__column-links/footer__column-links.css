@@ -1,17 +1,6 @@
 .footer__column-links {
-  color: white;
-  text-decoration: none;
-  line-height: 18px;
-  font-size: 18px;
-  font-weight: 400;
-  list-style-type: none;
   padding: 0px;
-  margin: 0px;
-}
-.footer__column-links:hover {
-  color: white;
-  text-decoration: none;
-  opacity: 0.5;
-  transition: 0.1s;
+  margin:20px 0px 16px;
+  list-style: none;
 }
 

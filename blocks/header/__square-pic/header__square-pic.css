@@ -2,9 +2,8 @@
   position: absolute;
   width: 568px;
   height: 568px;
-  margin-top: 64px;
+  top: 64px;
   background-color: #2f80ed;
   right: 0;
   z-index: 1;
-  overflow: hidden;
 }

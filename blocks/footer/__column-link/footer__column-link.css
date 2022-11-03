@@ -6,10 +6,9 @@
   font-weight: 400;
   list-style-type: none;
   display: flex;
-  margin-bottom: 10px;
   opacity: 1;
   padding: 0px;
-  margin: 20px 0px 16px;
+  margin: 0px;
   display:flex;
 }
 .footer__column-link:hover {
