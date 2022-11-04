@@ -10,6 +10,7 @@
   padding: 0px;
   margin: 0px;
   display:flex;
+  white-space: pre;
 }
 .footer__column-link:hover {
   color: white;
